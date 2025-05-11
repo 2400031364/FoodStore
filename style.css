@@ -1,0 +1,235 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a64bf4;
+}
+
+.logo span {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #a64bf4;
+}
+
+.book-btn {
+  background-color: #a64bf4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711124309/8513909_3941598-(2).jpg') no-repeat center center/cover;
+  padding: 5rem 2rem;
+}
+
+.hero-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-explore {
+  background-color: #a64bf4;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.booking-panel {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  background-color: #222;
+  color: white;
+  border: 1px solid #a64bf4;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #a64bf4;
+  color: white;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.booking-form input,
+.booking-form button {
+  width: 250px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-search {
+  background-color: #a64bf4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Menu Grid */
+.movie-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.movie-section h2 {
+  margin-bottom: 2rem;
+  color: #a64bf4;
+}
+
+.movie-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.movie-card {
+  background-color: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(166, 75, 244, 0.4);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 1rem;
+}
+
+.btn-book {
+  margin-top: 0.5rem;
+  background-color: #a64bf4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Offers */
+.offers {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.offer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.offer-card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.offer-text h3 {
+  color: #a64bf4;
+}
+
+/* Blog */
+.blog {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.blog-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background-color: #222;
+  width: 280px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}

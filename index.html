@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodMania - Order Your Meal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Food<span>Mania</span></div>
+    <nav class="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#specials">Specials</a>
+      <a href="#offers">Offers</a>
+      <a href="#blog">Blog</a>
+      <button class="book-btn">Order Now</button>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Order Delicious<br>Food Online</h1>
+      <a href="#menu" class="btn-explore">Browse Menu</a>
+    </div>
+    <div class="booking-panel">
+      <div class="tabs">
+        <button class="tab active">Dishes</button>
+        <button class="tab">Restaurants</button>
+        <button class="tab">Cuisines</button>
+      </div>
+      <form class="booking-form">
+        <input type="text" placeholder="Search Dish" />
+        <input type="text" placeholder="Enter Location" />
+        <input type="number" placeholder="Quantity" />
+        <button type="submit" class="btn-search">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="movie-section" id="menu">
+    <h2>Popular Dishes</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="dish1.jpg" alt="Dish 1">
+        <div class="movie-info">
+          <h3>Spicy Paneer</h3>
+          <button class="btn-book">Order</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="dish2.jpg" alt="Dish 2">
+        <div class="movie-info">
+          <h3>Veg Biryani</h3>
+          <button class="btn-book">Order</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section" id="specials">
+    <h2>Chef Specials</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="dish3.jpg" alt="Dish 3">
+        <div class="movie-info">
+          <h3>Mughlai Platter</h3>
+          <button class="btn-book">Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="offers" class="offers">
+    <h2>Special Offers</h2>
+    <p>Get amazing discounts on your meals!</p>
+    <div class="offer-card">
+      <img src="offer.jpeg" alt="Offer Banner" />
+      <div class="offer-text">
+        <h3>Flat 50% OFF</h3>
+        <p>Only for first 100 users today.</p>
+        <button class="btn-book">Grab Offer</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <h2>Food News</h2>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <img src="blog1.jpg" alt="Blog 1">
+        <h3>Secrets of the Perfect Curry</h3>
+        <p>Discover how top chefs perfect their recipes...</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
